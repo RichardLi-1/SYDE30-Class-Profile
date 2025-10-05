@@ -10,7 +10,7 @@ function App() {
       <div className = "bg-[#F7EDEA]">
         <Header />
         <div style={{ fontFamily: "'Lato', sans-serif" }} className="p-6 height-40vh flex bg-[#F7EDEA]">
-            <h1 className="text-6xl font-extrabold justify-items-center text-[#431960]">systems design</h1>
+            <h1 className="text-6xl font-extrabold justify-items-center text-[#431960]">about</h1>
             <h1 className="text-4xl mt-2 justify-items-center text-[#5E2D91]">engineering!</h1>
 
           <div>

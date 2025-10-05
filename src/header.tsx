@@ -1,6 +1,18 @@
 import "./globals.css";
 
 export default function Header() {
+
+    const links = [
+        { name: "Home", href: " .."},
+        { name: "About", href: "about"},
+        { name: "Demographics", href: " demographics"},
+        { name: "High School", href: "highschool"},
+        { name: "Academics", href: "academics"},
+        { name: "Lifestyle", href: "lifestyle"},
+        { name: "Co-op", href: "coop"},
+        { name: "Photos!", href: "photos"},
+        
+    ];
     return(
 
 
@@ -9,15 +21,18 @@ export default function Header() {
         
         <>
         
-            <div className="flex">
+            <div className="flex bg-[#F7EDEA]">
                 <div className="flex justify-between space-x-4">
-                    <span className="button"><a href="demographics"><p>Demographics</p></a></span>
-                    <span className="button"><a href="highschool"><p>High School</p></a></span>
-                    <span className="button"><a href="academics"><p>Academics</p></a></span>
-                    <span className="button"><a href="lifestyle"><p>Lifestyle</p></a></span>
-                    <span className="button"><a href="coop"><p>Co-op</p></a></span>
-                    <span className="button"><a href="photos"><p>Photos!</p></a></span>
-                    <span className="button"><a href="about"><p>About</p></a></span>
+                    {(links.map((link) => (
+                        <a href={link.href} key={link.href}>
+                        <span className="p-5 rounded-full hover:bg-gray-400" >
+                            
+                                {link.name}
+                            
+                        </span>
+                        </a>
+                    )))
+                    }
                 </div>
             </div>
             

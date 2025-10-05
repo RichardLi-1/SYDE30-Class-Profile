@@ -11,7 +11,7 @@ export default function App() {
         <h1 className="text-4xl mt-2 text-[#5E2D91]">engineering!</h1>
         <div>
           <h1 className="text-2xl font-light">class profile</h1>
-          <img src="" alt="" />
+          <img src="arrowRight.png" alt="" />
         </div>
       </div>
     </div>

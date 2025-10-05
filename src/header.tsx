@@ -25,7 +25,7 @@ export default function Header() {
                 <div className="flex justify-between space-x-4">
                     {(links.map((link) => (
                         <a href={link.href} key={link.href}>
-                        <span className="p-5 rounded-full hover:bg-gray-400" >
+                        <span className="p-5 rounded-full hover:bg-gray-400 font-lato" >
                             
                                 {link.name}
                             

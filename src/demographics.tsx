@@ -1,8 +1,8 @@
-// App.tsx
-import Header from './header';
-import './main.css';
-
-export default function About() {
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './main.css'
+import Header from './header.tsx'
+function App() {
   //const [count, setCount] = useState(0)
   
   return (
@@ -21,3 +21,10 @@ export default function About() {
     </>
   )
 }
+
+
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+)

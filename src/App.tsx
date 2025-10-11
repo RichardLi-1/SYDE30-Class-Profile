@@ -11,6 +11,7 @@ export default function App() {
         <h1 className="text-5xl mt-2 text-[#5E2D91]">engineering</h1>
         <div className="flex mt-6 align-items-center space-x-4">
           <h1 className="text-4xl font-light">class profile</h1> <a href="demographics"><img className="w-24 hover:scale-110 transition-transform" src="Group 1.svg" alt="" /></a>
+
         </div>
       </div>
     </div>

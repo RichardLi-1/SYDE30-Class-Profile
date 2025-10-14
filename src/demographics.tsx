@@ -9,14 +9,41 @@ export default function Demographics() {
       <div className="p-6 h-[40vh] flex flex-col justify-center">
         <h1 className="text-6xl font-extrabold text-[#431960]">demographics</h1>
             <p className="text-lg font-light font-lato">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        <div>
-          <h1 className="text-2xl font-light">class profile</h1>
+        
 
-          <a href="/about"><p>About</p></a>
+          <div className="flex">
+            {/* LEFT BUTTON */}
+            <div className="flex mt-20 items-center" style={{ fontFamily: "'Lato', sans-serif"}}>
+              <a href="../demographics">
+                <img className="w-16 hover:scale-110 transition-transform" src="ArrowLeft.svg" alt="" />
+              </a>
+              <a href="../demographics">
+                <div className="ml-4 hover:scale-110 transition-transform">
+                  <h1 className="text-4xl font-light">demographics</h1>
+                  <img src="line.svg" className="w-full h-auto"/>
+                </div>
+              </a>
+            </div>
 
-          <a href="/about"><p className="hover:">High School</p></a>
-          <img src="arrowRight.png" alt="" />
-        </div>
+          
+
+
+              {/* RIGHT BUTTON */}
+            <div className="flex mt-20 ml-auto items-center" style={{ fontFamily: "'Lato', sans-serif"}}>
+              
+              <a href="../demographics">
+                <div className="ml-4 hover:scale-110 transition-transform">
+                  <h1 className="text-4xl font-light">high school</h1>
+                  {/*<img src="line.svg" className="w-full h-2 w-100 object-fill"/>*/}
+                </div>
+              </a>
+              <a href="../demographics">
+                <img className="w-16 hover:scale-110 transition-transform" src="Group 1.svg" alt="" />
+              </a>
+              
+            </div>
+
+          </div>
       </div>
     </div>
   );

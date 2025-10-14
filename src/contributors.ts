@@ -17,6 +17,13 @@ export const contributors = [
         name: "Ellie Chan",
         role: "Design",
         link: "https://www.linkedin.com/in/elliechan25/",
-        image: "ellie.jpeg"
+        image: "placeholder.png"
     },
+
+    {
+        name: "Fiona Fang",
+        role: "Design",
+        link: "https://www.linkedin.com/in/fiona-fangg/",
+        image: "fionafang.jpeg"
+    }
 ]

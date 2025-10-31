@@ -25,5 +25,12 @@ export const contributors = [
         role: "Design",
         link: "https://www.linkedin.com/in/fiona-fangg/",
         image: "fionafang.jpeg"
+    },
+
+    {
+        name: "Justin Wu",
+        role: "Media",
+        link: "https://www.linkedin.com/in/justin-wu-171481162/",
+        image: "jwu.jpeg"
     }
 ]

@@ -13,6 +13,7 @@ export default function About() {
         <div className="p-6 h-[40vh] justify-center">
           <div style={{ fontFamily: "'Lato', sans-serif" }} className="p-6 height-40vh bg-[#F7EDEA]">
               <h1 className="text-6xl font-extrabold justify-items-center text-[#431960]">about</h1>
+              <p>Class profile is not affiliated with the SYDE department.</p>
 
               <h2 className="text-4xl font-light justify-items-center text-[#431960] mt-10">about the program</h2>
 

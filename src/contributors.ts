@@ -8,7 +8,7 @@ export const contributors = [
 
     {
         name: "Sherman Chan",
-        role: "Design",
+        role: "Design and Dev",
         link: "https://www.linkedin.com/in/sherman-chan-69026230b/",
         image: "sherman.jpeg"
     },
